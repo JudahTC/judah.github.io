@@ -1,0 +1,312 @@
+
+@media only screen and (min-width:768px){
+body{
+margin: 0;
+padding: 0;
+background-size: cover;
+
+background-image:url(now.jpg);
+
+}
+.all{
+  background:rgba(0, 0, 0, 0.85);
+height: 44em;
+
+}
+.both{
+padding-top: 5px;
+  display: flex;
+background-color: black;
+opacity: 0.7;
+}
+
+.name{
+
+color:white;
+margin-left: 5%;
+  margin-right: 55%;
+
+}
+
+.one ul{
+  display: flex;
+  margin-top: 0;
+}
+
+.one ul li{
+  margin-right: 20px;
+  list-style: none;
+
+}
+.one ul li a{
+  color:white;
+  text-decoration: none;
+  padding-left: 5px;
+  padding-right:7px;
+  padding-bottom: 6px;
+  font-weight: bold;
+}
+
+.one a:hover{
+border-bottom:3px solid red;
+
+}
+
+.links  b{
+padding: 0.4%;
+background-color: red;
+color: white;
+border-radius: 0.3%;
+margin-left: 5%;
+}
+
+
+.links  i{
+padding: 0.4%;
+background-color: gray;
+color: white;
+border-radius: 0.3%;
+margin-left: 1%;
+}
+
+
+
+.links b a{
+  text-decoration: none;
+}
+.two{
+  margin-top:3%;
+  margin-left: 5%;
+  color: white;
+  font-family: sans-serif;
+  font-weight: bolder;
+  font-size: 180%;
+  margin-bottom: 1%;
+}
+
+.three{
+  color:white;
+font-size: 80%;
+  margin-left: 5%;
+}
+
+.skills{
+  display: flex;
+}
+.x{
+  margin-left: 5%;
+  background-color: white;
+}
+.x h4{
+  background-color: teal;
+  padding: 4px;
+  margin-top: 0;
+}
+
+.y{
+  margin-left: 5%;
+  background-color: teal;
+}
+.y h4{
+  background-color: white;
+  padding: 4px;
+  margin-top: 0;
+}
+
+.z{
+  margin-left: 5%;
+  background-color: white;
+}
+.z h4{
+  background-color: teal;
+  padding: 4px;
+  margin-top: 0;
+}
+.pic img{
+  width: auto;
+height: 6em;
+  border-radius: 20%;
+}
+
+.sub1{
+  display: none;
+}
+
+.one ul li:hover .sub1{
+  background-color:white;
+}
+.ico ul{
+display: flex;
+list-style: none;
+margin-left: 3%;
+
+
+}
+
+.ico ul li{
+  margin-right: 3%;
+}
+
+}
+@media only screen and (max-width:420px ) {
+  body{
+  margin: 0;
+  margin: 0;
+  padding: 0;
+  background-size: cover;
+  background-image:url(NOW.jpg);
+  }
+  .all{
+    background:rgba(0, 0, 0, 0.8);
+  height: 71.8em;
+padding-right: 5%;
+margin-top: 0;
+  }
+  .both{
+margin-top: 0;
+padding-right: 5.3%;
+    display: block;
+  background-color: black;
+  width: 100%;
+  opacity: 0.76;
+  }
+
+  .name{
+    font-family: cursive;
+
+  color:pink;
+  margin-left: 5%;
+  font-size:70%;
+  margin-right: 0;
+  }
+
+.one{
+  margin-left: 0;margin-top: 0;
+
+}
+
+  .one ul{
+    display: flex;
+    margin-left: 0;
+margin-top: 0;
+
+    padding-left: 4.4%;
+  }
+
+  .one ul li{
+    margin-right: 2px;
+    list-style: none;
+margin-left: 0;
+
+  }
+  .one ul li a{
+    color:white;
+    text-decoration: none;
+    margin-right: 5px;
+
+    font-size: 60%;
+  }
+
+  .one a:hover{
+  border-bottom:1px solid red;
+
+  }
+
+
+  .links  b{
+  padding: 0.4%;
+  background-color: red;
+  color: white;
+  border-radius: 0.3%;
+  margin-left: 5%;
+    font-size: 60%;
+    border-radius:3px;
+  }
+
+
+  .links  i{
+  padding: 0.4%;
+  background-color: gray;
+  color: white;
+  border-radius: 3px;
+  margin-left: 1%;
+  font-size: 60%;
+  }
+
+
+
+  .two{
+    margin-top:3%;
+    margin-left: 5%;
+    color: white;
+    font-family: sans-serif;
+    font-weight: bolder;
+    font-size: 100%;
+    margin-bottom: 1%;
+  }
+
+  .three{
+    color:white;
+  font-size: 70%;
+    margin-left: 5%;
+
+
+  }
+
+
+
+
+  .skills{
+    display: block;
+
+  }
+  .x{
+    margin-left: 9.5%;
+    background-color: white;
+    width: 85%;
+    font-size:70%;
+  }
+  .x h4{
+    background-color: teal;
+    padding: 4px;
+    margin-top: 0;
+  }
+
+  .y{
+    margin-left: 9.5%;
+    background-color: teal;
+      width: 85%;
+      font-size:70%;
+  }
+  .y h4{
+    background-color: white;
+    padding: 4px;
+    margin-top: 0;
+  }
+
+  .z{
+    margin-left: 9.5%;
+    background-color: white;
+      width: 85%;
+      font-size:70%;
+      margin-bottom: 10%;
+  }
+  .z h4{
+    background-color: teal;
+    padding: 4px;
+    margin-top: 0;
+  }
+
+
+.why{
+  margin-left: 0;
+}
+.ico ul{
+  margin-left: 0;
+  margin-top: 80%;}
+.ico a {
+  padding:10px;
+
+}
+
+}
